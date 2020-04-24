@@ -705,3 +705,4 @@ resource "aws_default_security_group" "this" {
   revoke_rules_on_delete = var.vpc_module_revoke_rules_on_delete
   tags                   = var.tags
 }
+ 
