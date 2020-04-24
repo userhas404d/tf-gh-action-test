@@ -248,7 +248,7 @@ module "vpc" {
 }
 
 module "vpc_endpoints" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-vpc-endpoints.git?ref=1.0.2"
+  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-vpc-endpoints.git?ref=4.0.1"
 
   providers = {
     aws = aws
