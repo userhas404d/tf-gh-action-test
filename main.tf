@@ -175,7 +175,7 @@ locals {
 }
 
 module "iam_users" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-iam-principals.git?ref=3.0.0"
+  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-iam-principals.git?ref=5.0.0"
 
   providers = {
     aws = aws
