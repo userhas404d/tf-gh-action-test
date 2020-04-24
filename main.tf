@@ -1,5 +1,5 @@
 module "validate_stage" {
-  source = "git::https://github.com/plus3it/terraform-null-validate-list-item.git?ref=1.0.0"
+  source = "git::https://github.com/plus3it/terraform-null-validate-list-item.git?ref=1.0.3"
 
   providers = {
     aws = aws
