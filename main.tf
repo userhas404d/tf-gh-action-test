@@ -356,7 +356,7 @@ data "template_file" "config_bucket_policy" {
 }
 
 module "config_bucket" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-s3-bucket.git?ref=1.1.1"
+  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-s3-bucket.git?ref=2.0.0"
 
   providers = {
     aws = aws
