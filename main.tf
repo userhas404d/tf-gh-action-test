@@ -221,7 +221,7 @@ resource "aws_iam_group_policy_attachment" "this" {
 
 ##### VPC #####
 module "vpc" {
-  source = "github.com/plus3it/terraform-aws-vpc?ref=v2.25.0"
+  source = "github.com/plus3it/terraform-aws-vpc?ref=v2.32.0"
 
   providers = {
     aws = aws
